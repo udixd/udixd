@@ -12,7 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Clock"></activity>
-        <activity android:name=".AlarmReceiver" />
         <activity android:name=".ActivityMessage" />
         <activity android:name=".ActivityEmail" />
         <activity android:name=".ActivityCall" />
@@ -25,7 +24,7 @@
         </activity>
 
         <receiver
-            android:name=".MyAlarm"
+            android:name=".AlarmReceiver"
             android:enabled="true"
             android:exported="true" />
     </application>
