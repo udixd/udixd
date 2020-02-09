@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:id="@+id/layout"
+    android:gravity="center"
+    >
+
+
+
+        <Button
+            android:background="#4572"
+            android:id="@+id/Message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message timer"
+            android:textSize="45dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <Button
+            android:background="#4572"
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email timer"
+            android:textSize="45dp"
+            android:layout_marginLeft="5dp"
+            />
+
+    <Button
+        android:background="#4572"
+        android:id="@+id/Call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call timer"
+        android:textSize="45dp"
+        android:layout_marginLeft="5dp"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

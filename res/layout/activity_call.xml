@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:id="@+id/layout"
+    android:gravity="center"
+    tools:context=".ActivityCall">
+
+    <EditText
+        android:id="@+id/reminder"
+        android:hint="Set Reminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"/>
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:hint="Set PhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"/>
+
+
+    <Button
+        android:background="#4572"
+        android:id="@+id/Clockset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set time"
+        android:textSize="45dp"
+        android:layout_marginLeft="5dp"
+        />
+
+</LinearLayout>
+
